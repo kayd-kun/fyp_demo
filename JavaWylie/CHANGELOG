@@ -1,0 +1,9 @@
+2010-03-01: improve space handling in toWylie, to turn spaces judiciously into '_', [  ] or 
+	    leave them as spaces, depending on escape mode and context.
+2010-02-27: move the helper classes into nested classes, to avoid having so many files around; 
+	    change the API so that warnings are passed along in the same call to toWylie() or 
+	    fromWylie(), rather than getting stored on the object.  this makes the object pretty 
+	    much stateless and shareable between threads.
+2010-02-26: port the "unicode to wylie" code from perl, and associated test suite bits
+2010-02-05: java improvements; move class intialization to a static block; port test suite from perl
+2010-02-03: first shot: learn enough java, port the "wylie to unicode" code from perl

@@ -1,0 +1,133 @@
+1662313940045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegesUVU"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Error parsing JSON file: SyntaxError: JSON.parse: expected double-quoted property name at line 16 column 5 of the JSON data
+1662313940277	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegesUVU/search.json.mozlz4", (void 0)))
+1662313945564	Marionette	INFO	Listening on port 43451
+1662313945690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+1662314181348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileclD6bn"
+console.error: Enterprise Policies: 
+  Error parsing JSON file: SyntaxError: JSON.parse: expected double-quoted property name at line 16 column 5 of the JSON data
+1662314181871	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileclD6bn/search.json.mozlz4", (void 0)))
+1662314188808	Marionette	INFO	Listening on port 40577
+1662314188906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1662314210569	Marionette	INFO	Stopped listening on port 40577
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:196:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 927: Error: Connection is not open.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:137:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:875:13
+
+1662362291809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLGyVzr"
+*** You are running in headless mode.
+console.error: Enterprise Policies: 
+  Error parsing JSON file: SyntaxError: JSON.parse: expected double-quoted property name at line 16 column 5 of the JSON data
+1662362292067	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLGyVzr/search.json.mozlz4", (void 0)))
+1662362300033	Marionette	INFO	Listening on port 44231
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1662362301584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PartitioningExceptionListService.jsm, line 69: NS_ERROR_MALFORMED_URI: Component returned failure code: 0x804b000a (NS_ERROR_MALFORMED_URI) [nsIPartitioningExceptionListObserver.onExceptionListUpdate]
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:137:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:875:13
+
+1664981937627	geckodriver	INFO	Listening on 127.0.0.1:36491
+1664981937733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile0S2gta"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1664981939075	Marionette	INFO	Marionette enabled
+1664981939212	Marionette	INFO	Listening on port 45937
+Read port: 45937
+1664981940383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0S2gta/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1664981969361	Marionette	INFO	Stopped listening on port 45937
+1664982442981	geckodriver	INFO	Listening on 127.0.0.1:40045
+1664982444038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile7oPvOi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1664982444830	Marionette	INFO	Marionette enabled
+1664982444836	Marionette	INFO	Listening on port 33193
+Read port: 33193
+1664982446219	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7oPvOi/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+JavaScript warning: https://www.thlib.org/global/php/combineJS.php, line 173: unreachable code after return statement
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1664983901043	Marionette	INFO	Stopped listening on port 33193
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dzongkha TTS Demo</title>
+</head>
+<body>
+
+    <style>
+        .main {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 5px solid #00ff88;
+            padding: 20px;
+        }
+
+        .inputField {
+            height: 20px;
+        }
+
+        .output {
+            font-size: 20px;
+        }
+
+    </style>
+
+    <main class="main" id="main">
+        <input type="text" placeholder="Type Dzongkha Here" id="inputField">
+        <input type="submit" value="Speak" id="submitBtn">
+    </main>
+
+    <script>
+        let submitBtn = document.getElementById("submitBtn")
+        let inputText = document.getElementById("inputField")
+
+        submitBtn.addEventListener('click', (e) => {
+            e.preventDefault()
+            // console.log("Btn Clicked")
+            text = inputText.value
+            const data = { inputText: text };
+            console.log(text)
+
+            fetch("/", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data)
+            }).then((response) => response.json())
+                .then((data) => {
+                    console.log('Success:', data['transcribe']);
+                    showResult(data['transcribe'])
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+
+        })
+
+        function showResult(resultText) {
+            let mainSection = document.getElementById('main')
+
+            let outputElement = document.createElement('p')
+            outputElement.className = "output"
+            outputElement.textContent = resultText
+
+            mainSection.appendChild(outputElement)
+
+        }
+    </script>
+</body>
+</html>
